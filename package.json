@@ -1,0 +1,32 @@
+{
+  "name": "seattle-infrastructure-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for analyzing Bellevue's public infrastructure",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "mcp",
+    "bellevue",
+    "infrastructure",
+    "analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "@types/node-fetch": "^2.6.12",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "node-fetch": "^2.7.0",
+    "overpass-ts": "^4.3.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
